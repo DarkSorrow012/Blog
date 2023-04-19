@@ -1,12 +1,11 @@
 # Blog
-Set up a development environment: Install and set up a web server like Apache or Nginx, PHP, and a database management system like MySQL or PostgreSQL.
-Create a database: Create a database to store user information, blog posts, and comments.
-Design the database schema: Create a database schema to define the structure of the database, including the tables, relationships, and data types.
-Implement user registration: Create a user registration form that allows users to enter their username and password. Validate the user input, hash the password using a secure hashing algorithm like bcrypt or Argon2, and store the user data in the database.
-Implement user authentication: Create a login form that allows registered users to log in using their username and password. Validate the user input, compare the hashed password with the one stored in the database, and create a session to keep the user logged in.
-Implement blog post creation: Create a form that allows registered users to create a new blog post. Validate the user input, store the post data in the database, and associate the post with the user who created it.
-Implement blog post editing: Create a form that allows users to edit their own blog posts. Validate the user input, update the post data in the database, and prevent unauthorized access to other users' posts.
-Implement blog post deletion: Create a confirmation dialog that allows users to delete their own blog posts. Validate the user input, delete the post data from the database, and prevent unauthorized access to other users' posts.
-Implement blog post viewing: Create a page that displays a list of all blog posts, sorted and filtered based on the user's preferences. Implement pagination to limit the number of posts displayed per page.
-Implement commenting on posts: Create a form that allows users to leave comments on blog posts made by other users. Validate the user input, store the comment data in the database, and associate the comment with the respective blog post.
-Implement security measures: Implement input validation to prevent XSS and SQL injection attacks, use prepared statements to prevent SQL injection attacks, and hash passwords using a secure hashing algorithm.
+1. Is necessary have installed and running a web server like Apache or Nginx, PHP, and a database management like MySQLi in my system to execute locally.
+2. Create a database: Create a database to store user information, blog posts, and comments.
+3. Design the database schema: I have created a database schema to define the structure of the database, including the tables, relationships, and data types.
+4. User registration: Create a user registration form that allows users to enter their username and password. Validate the user input, hash the password using a secure hashing command, and store the user data in the database.
+5. User authentication: I made a login form that allows registered users to log in using their username and password. Validate the user input, compare the hashed password with the one stored in the database, and create a session to keep the user logged in.
+Blog post creation: I made a form that allows registered users to create a new blog post. Validate the user input, store the post data in the database.
+Blog post editing: It was made with a form that allows users to edit their own blog posts. Validate the user input, update the post data in the database.
+Blog post deletion: Created a web page that allows users to delete all the blog posts. First each use have to be logged then they can delete the post data from the database.
+Blog post viewing: Created a page that displays a list of all blog posts, sorted by time line.
+Mecurity measures: All the passwords are hashed using a secure hashing algorithm.

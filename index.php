@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 include "logic.php";
 $_SESSION['logged'] = 0;
